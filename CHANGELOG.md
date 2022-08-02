@@ -79,7 +79,7 @@ flowchart LR
 ```
 
 ```mermaid
-flowchart Lamp
+flowchart TD
     A[Lamp doesn't work] -->|Shitt| B{Lamp plugged in?}
     B -->|No| C(Plug in lamp)
     B -->|Yes| D{Bulb burned out?}
