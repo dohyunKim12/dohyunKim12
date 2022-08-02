@@ -77,3 +77,12 @@ flowchart LR
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
 ```
+
+```mermaid
+flowchart Lamp
+    A[Lamp doesn't work] -->|Shitt| B{Lamp plugged in?}
+    B -->|No| C(Plug in lamp)
+    B -->|Yes| D{Bulb burned out?}
+    D -->|Yes| E(Replace Bulb)
+    D -->|No| F(Repair Lamp)
+```
